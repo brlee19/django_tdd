@@ -18,5 +18,5 @@ from lists import views
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', views.home_page, name='home'),
+    url(r'^$', views.home_page, name='home')
 ]

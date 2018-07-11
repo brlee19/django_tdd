@@ -1,6 +1,7 @@
 from selenium import webdriver
 import unittest
 
+
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
@@ -15,7 +16,6 @@ class NewVisitorTest(unittest.TestCase):
 
         # Page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
-        self.fail('Finish the test!')
 
         # User is invited to enter a to-do item right away
 
